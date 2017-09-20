@@ -4,8 +4,8 @@ call "VsDevCmd.cmd"
 
 msbuild mstest-exit-code.sln /p:Configuration=Debug
 
-mstest /testcontainer:UnitTestProject\bin\Debug\UnitTestProject.dll
+vstest.console UnitTestProject\bin\Debug\UnitTestProject.dll
 
-where mstest
+where vstest.console
 echo "ERRORLEVEL=%ERRORLEVEL%"
 pause
