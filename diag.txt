@@ -1,0 +1,90 @@
+TpTrace Information: 0 : 12492, 1, 2017/09/21, 07:30:26.858, 14014348724, vstest.console.exe, Using .Net Framework version:.NETFramework,Version=v4.6
+TpTrace Information: 0 : 12492, 1, 2017/09/21, 07:30:26.862, 14014359431, vstest.console.exe, Using platform:X64
+TpTrace Verbose: 0 : 12492, 1, 2017/09/21, 07:30:26.876, 14014413872, vstest.console.exe, TestPluginCache: Discovering the extensions using extension path.
+TpTrace Information: 0 : 12492, 1, 2017/09/21, 07:30:26.880, 14014429225, vstest.console.exe, AssemblyResolver: Microsoft.TestPlatform.TestHostRuntimeProvider: Resolving assembly.
+TpTrace Information: 0 : 12492, 1, 2017/09/21, 07:30:26.884, 14014445401, vstest.console.exe, AssemblyResolver: Microsoft.TestPlatform.TestHostRuntimeProvider: Resolved assembly. 
+TpTrace Information: 0 : 12492, 1, 2017/09/21, 07:30:26.887, 14014458702, vstest.console.exe, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Extensions.GenericTestAdapter: Resolving assembly.
+TpTrace Information: 0 : 12492, 1, 2017/09/21, 07:30:26.888, 14014462574, vstest.console.exe, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Extensions.GenericTestAdapter: Resolved assembly. 
+TpTrace Information: 0 : 12492, 1, 2017/09/21, 07:30:26.889, 14014463908, vstest.console.exe, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Extensions.OrderedTestAdapter: Resolving assembly.
+TpTrace Information: 0 : 12492, 1, 2017/09/21, 07:30:26.890, 14014467229, vstest.console.exe, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Extensions.OrderedTestAdapter: Resolved assembly. 
+TpTrace Information: 0 : 12492, 1, 2017/09/21, 07:30:26.890, 14014468457, vstest.console.exe, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Extensions.TmiAdapter: Resolving assembly.
+TpTrace Information: 0 : 12492, 1, 2017/09/21, 07:30:26.891, 14014471888, vstest.console.exe, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Extensions.TmiAdapter: Resolved assembly. 
+TpTrace Information: 0 : 12492, 1, 2017/09/21, 07:30:26.891, 14014474275, vstest.console.exe, AssemblyResolver: Microsoft.VisualStudio.QualityTools.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: Resolving assembly.
+TpTrace Verbose: 0 : 12492, 1, 2017/09/21, 07:30:26.892, 14014476801, vstest.console.exe, CurrentDomain_AssemblyResolve: Resolving assembly 'Microsoft.VisualStudio.QualityTools.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+TpTrace Information: 0 : 12492, 1, 2017/09/21, 07:30:26.892, 14014478188, vstest.console.exe, AssemblyResolver: Microsoft.VisualStudio.QualityTools.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: Resolving assembly.
+TpTrace Verbose: 0 : 12492, 1, 2017/09/21, 07:30:26.892, 14014478578, vstest.console.exe, CurrentDomain_AssemblyResolve: Resolving assembly 'Microsoft.VisualStudio.QualityTools.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+TpTrace Verbose: 0 : 12492, 1, 2017/09/21, 07:30:26.893, 14014478696, vstest.console.exe, CurrentDomainAssemblyResolve: Failed to resolve assembly 'Microsoft.VisualStudio.QualityTools.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+TpTrace Verbose: 0 : 12492, 1, 2017/09/21, 07:30:26.893, 14014479311, vstest.console.exe, CurrentDomainAssemblyResolve: Failed to resolve assembly 'Microsoft.VisualStudio.QualityTools.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+TpTrace Warning: 0 : 12492, 1, 2017/09/21, 07:30:26.896, 14014493996, vstest.console.exe, TestPluginDiscoverer: Failed to get types from assembly 'Microsoft.VisualStudio.TestPlatform.Extensions.TmiAdapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.  Skipping test extension scan for this assembly.  Error: System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.TestPluginDiscoverer.GetTestExtensionsFromAssembly[TPluginInfo,TExtension](Assembly assembly, Dictionary`2 pluginInfos)
+TpTrace Warning: 0 : 12492, 1, 2017/09/21, 07:30:26.897, 14014494813, vstest.console.exe, LoaderExceptions: System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.VisualStudio.QualityTools.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies. The system cannot find the file specified.
+File name: 'Microsoft.VisualStudio.QualityTools.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' ---> System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.VisualStudio.QualityTools.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies. The system cannot find the file specified.
+File name: 'Microsoft.VisualStudio.QualityTools.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   at Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.TestPluginCache.CurrentDomainAssemblyResolve(Object sender, ResolveEventArgs args)
+   at System.AppDomain.OnAssemblyResolveEvent(RuntimeAssembly assembly, String assemblyFullName)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+
+
+TpTrace Information: 0 : 12492, 1, 2017/09/21, 07:30:26.897, 14014495939, vstest.console.exe, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger: Resolving assembly.
+TpTrace Information: 0 : 12492, 1, 2017/09/21, 07:30:26.898, 14014499780, vstest.console.exe, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger: Resolved assembly. 
+TpTrace Information: 0 : 12492, 1, 2017/09/21, 07:30:26.899, 14014504208, vstest.console.exe, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Extensions.VSTestIntegration: Resolving assembly.
+TpTrace Information: 0 : 12492, 1, 2017/09/21, 07:30:26.900, 14014507681, vstest.console.exe, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Extensions.VSTestIntegration: Resolved assembly. 
+TpTrace Information: 0 : 12492, 1, 2017/09/21, 07:30:26.904, 14014524475, vstest.console.exe, AssemblyResolver: Microsoft.VisualStudio.TestTools.CppUnitTestFramework.ComInterfaces: Resolving assembly.
+TpTrace Information: 0 : 12492, 1, 2017/09/21, 07:30:26.905, 14014527854, vstest.console.exe, AssemblyResolver: Microsoft.VisualStudio.TestTools.CppUnitTestFramework.ComInterfaces: Resolved assembly. 
+TpTrace Information: 0 : 12492, 1, 2017/09/21, 07:30:26.905, 14014529360, vstest.console.exe, AssemblyResolver: Microsoft.VisualStudio.TestTools.CppUnitTestFramework.CppUnitTestExtension: Resolving assembly.
+TpTrace Information: 0 : 12492, 1, 2017/09/21, 07:30:26.906, 14014532788, vstest.console.exe, AssemblyResolver: Microsoft.VisualStudio.TestTools.CppUnitTestFramework.CppUnitTestExtension: Resolved assembly. 
+TpTrace Information: 0 : 12492, 1, 2017/09/21, 07:30:26.907, 14014535376, vstest.console.exe, AssemblyResolver: Microsoft.VisualStudio.TraceDataCollector: Resolving assembly.
+TpTrace Information: 0 : 12492, 1, 2017/09/21, 07:30:26.908, 14014538749, vstest.console.exe, AssemblyResolver: Microsoft.VisualStudio.TraceDataCollector: Resolved assembly. 
+TpTrace Verbose: 0 : 12492, 1, 2017/09/21, 07:30:26.915, 14014568149, vstest.console.exe, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 12492, 1, 2017/09/21, 07:30:26.916, 14014571755, vstest.console.exe, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 12492, 1, 2017/09/21, 07:30:26.916, 14014571879, vstest.console.exe, TestPluginCache: Executors are ''.
+TpTrace Verbose: 0 : 12492, 1, 2017/09/21, 07:30:26.916, 14014571947, vstest.console.exe, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 12492, 1, 2017/09/21, 07:30:26.916, 14014572004, vstest.console.exe, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 12492, 1, 2017/09/21, 07:30:26.938, 14014655215, vstest.console.exe, RunTestsArgumentProcessor:Execute: Test run is starting.
+TpTrace Verbose: 0 : 12492, 1, 2017/09/21, 07:30:26.938, 14014655430, vstest.console.exe, RunTestsArgumentProcessor:Execute: Queuing Test run.
+TpTrace Information: 0 : 12492, 1, 2017/09/21, 07:30:26.943, 14014674361, vstest.console.exe, TestRequestManager.RunTests: run tests started.
+TpTrace Verbose: 0 : 12492, 1, 2017/09/21, 07:30:26.995, 14014880158, vstest.console.exe, TestPluginCache: Updating loadOnlyWellKnownExtensions from False to True.
+TpTrace Verbose: 0 : 12492, 1, 2017/09/21, 07:30:26.996, 14014881384, vstest.console.exe, TestPluginCache: Using directories for assembly resolution 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\Extensions\TestPlatform\Extensions'.
+TpTrace Verbose: 0 : 12492, 1, 2017/09/21, 07:30:26.996, 14014881522, vstest.console.exe, TestPluginCache: Updated the available extensions to 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\Extensions\TestPlatform\Extensions\Microsoft.VisualStudio.TestPlatform.Extensions.GenericTestAdapter.dll,C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\Extensions\TestPlatform\Extensions\Microsoft.VisualStudio.TestPlatform.Extensions.OrderedTestAdapter.dll,C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\Extensions\TestPlatform\Extensions\Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.dll,C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\Extensions\TestPlatform\Extensions\Microsoft.TestPlatform.TestHostRuntimeProvider.dll'.
+TpTrace Information: 0 : 12492, 1, 2017/09/21, 07:30:27.002, 14014908013, vstest.console.exe, AssemblyResolver: Microsoft.TestPlatform.TestHostRuntimeProvider, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: Resolving assembly.
+TpTrace Information: 0 : 12492, 1, 2017/09/21, 07:30:27.003, 14014909012, vstest.console.exe, AssemblyResolver: Microsoft.TestPlatform.TestHostRuntimeProvider, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: Resolved assembly. 
+TpTrace Information: 0 : 12492, 1, 2017/09/21, 07:30:27.003, 14014911148, vstest.console.exe, TestPluginManager.CreateTestExtension: Attempting to load test extension: Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.Hosting.DefaultTestHostManager
+TpTrace Verbose: 0 : 12492, 1, 2017/09/21, 07:30:27.006, 14014920354, vstest.console.exe, TestEngine: Initializing Parallel Execution as MaxCpuCount is set to: 1
+TpTrace Verbose: 0 : 12492, 1, 2017/09/21, 07:30:27.010, 14014939137, vstest.console.exe, ProxyExecutionManager: Test host is shared. SetupChannel it early.
+TpTrace Information: 0 : 12492, 1, 2017/09/21, 07:30:27.015, 14014957362, vstest.console.exe, Listening on port : 51484
+TpTrace Verbose: 0 : 12492, 1, 2017/09/21, 07:30:27.019, 14014972128, vstest.console.exe, DefaultTestHostmanager: Full path of TestHost\testhost.exe is C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\Extensions\TestPlatform\Extensions\..//TestHost\testhost.exe
+TpTrace Verbose: 0 : 12492, 4, 2017/09/21, 07:30:27.021, 14014980620, vstest.console.exe, Launching default test Host Process C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\Extensions\TestPlatform\Extensions\..//TestHost\testhost.exe with arguments  --port 51484 --parentprocessid 12492 --diag "D:\PullRequests\mstest-exit-code\diag.host.17-09-21_07-30-27_01743_1.txt"
+TpTrace Verbose: 0 : 12492, 4, 2017/09/21, 07:30:27.021, 14014980775, vstest.console.exe, DefaultTestHostManager: Starting process 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\Extensions\TestPlatform\Extensions\..//TestHost\testhost.exe' with command line ' --port 51484 --parentprocessid 12492 --diag "D:\PullRequests\mstest-exit-code\diag.host.17-09-21_07-30-27_01743_1.txt"'
+TpTrace Verbose: 0 : 12492, 4, 2017/09/21, 07:30:27.023, 14014989603, vstest.console.exe, Test Runtime launched with Pid: 12976
+TpTrace Information: 0 : 12492, 8, 2017/09/21, 07:30:27.087, 14015239132, vstest.console.exe, Accepted Client request and set the flag
+TpTrace Information: 0 : 12492, 1, 2017/09/21, 07:30:27.245, 14015854787, vstest.console.exe, TestRequestSender: VersionCheck Succeeded, NegotiatedVersion = 2
+TpTrace Verbose: 0 : 12492, 1, 2017/09/21, 07:30:27.248, 14015866908, vstest.console.exe, TestRunRequest.ExecuteAsync: Creating test run request.
+TpTrace Verbose: 0 : 12492, 1, 2017/09/21, 07:30:27.250, 14015875551, vstest.console.exe, TestRunRequest.ExecuteAsync: Starting.
+TpTrace Information: 0 : 12492, 1, 2017/09/21, 07:30:27.251, 14015877864, vstest.console.exe, TestRunRequest.ExecuteAsync: Starting run with settings:TestRunCriteria:
+   KeepAlive=False,FrequencyOfRunStatsChangeEvent=10,RunStatsChangeEventTimeout=00:00:01.5000000,TestCaseFilter=,TestExecutorLauncher=
+   Settingsxml=<RunSettings><RunConfiguration><ResultsDirectory>D:\PullRequests\mstest-exit-code\TestResults</ResultsDirectory><TargetPlatform>X64</TargetPlatform><TargetFrameworkVersion>.NETFramework,Version=v4.6</TargetFrameworkVersion><DesignMode>False</DesignMode><TestAdaptersPaths>C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\Extensions\TestPlatform\Extensions</TestAdaptersPaths></RunConfiguration></RunSettings>
+
+TpTrace Verbose: 0 : 12492, 1, 2017/09/21, 07:30:27.251, 14015877996, vstest.console.exe, TestRunRequest.ExecuteAsync: Wait for the first run request is over.
+TpTrace Information: 0 : 12492, 1, 2017/09/21, 07:30:27.259, 14015908145, vstest.console.exe, TestRunRequest.ExecuteAsync: Started.
+TpTrace Verbose: 0 : 12492, 1, 2017/09/21, 07:30:27.259, 14015910092, vstest.console.exe, TestRunRequest.WaitForCompletion: Waiting with timeout -1.
+TpTrace Verbose: 0 : 12492, 7, 2017/09/21, 07:30:27.272, 14015961286, vstest.console.exe, TestRunRequest:SendTestRunMessage: Starting.
+TpTrace Information: 0 : 12492, 7, 2017/09/21, 07:30:27.273, 14015965413, vstest.console.exe, TestRunRequest:SendTestRunMessage: Completed.
+TpTrace Verbose: 0 : 12492, 7, 2017/09/21, 07:30:27.428, 14016567932, vstest.console.exe, TestRunRequest:SendTestRunMessage: Starting.
+TpTrace Information: 0 : 12492, 7, 2017/09/21, 07:30:27.428, 14016568181, vstest.console.exe, TestRunRequest:SendTestRunMessage: Completed.
+TpTrace Verbose: 0 : 12492, 7, 2017/09/21, 07:30:27.465, 14016714027, vstest.console.exe, TestRunRequest:TestRunComplete: Starting. IsAborted:False IsCanceled:False.
+TpTrace Information: 0 : 12492, 7, 2017/09/21, 07:30:27.486, 14016797900, vstest.console.exe, TestRunRequest:TestRunComplete: Completed.
+TpTrace Verbose: 0 : 12492, 1, 2017/09/21, 07:30:27.488, 14016804977, vstest.console.exe, TestRunRequest.Dispose: Starting.
+TpTrace Information: 0 : 12492, 1, 2017/09/21, 07:30:27.488, 14016805118, vstest.console.exe, TestRunRequest.Dispose: Completed.
+TpTrace Information: 0 : 12492, 1, 2017/09/21, 07:30:27.488, 14016805193, vstest.console.exe, TestRequestManager.RunTests: run tests completed, sucessful: True.
+TpTrace Information: 0 : 12492, 1, 2017/09/21, 07:30:27.488, 14016805533, vstest.console.exe, RunTestsArgumentProcessor:Execute: Test run is completed.
+TpTrace Verbose: 0 : 12492, 1, 2017/09/21, 07:30:27.488, 14016805639, vstest.console.exe, Executor.Execute: Exiting with exit code of 0

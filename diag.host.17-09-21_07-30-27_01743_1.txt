@@ -1,0 +1,261 @@
+TpTrace Information: 0 : 12976, 1, 2017/09/21, 07:30:27.064, 14015156329, testhost.exe, DefaultEngineInvoker: Using Application Configuration: '<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <startup useLegacyV2RuntimeActivationPolicy="true">
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0" />
+  </startup>
+  <runtime>
+    <legacyUnhandledExceptionPolicy enabled="1" />
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <probing privatePath="Extensions" />
+      <!-- Test adapters compiled against version 11-14, need to be redirected to version 15. -->
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.VisualStudio.TestPlatform.ObjectModel" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="11.0.0.0-14.0.0.0" newVersion="15.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.VisualStudio.TestWindow.Interfaces" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="11.0.0.0-14.0.0.0" newVersion="15.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.VisualStudio.QualityTools.UnitTestFramework" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="10.1.0.0" newVersion="10.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.VisualStudio.QualityTools.Resource" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="10.0.0.0-14.0.0.0" newVersion="15.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.VisualStudio.QualityTools.ControllerObject" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="10.0.0.0-14.0.0.0" newVersion="15.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.VisualStudio.QualityTools.ExecutionCommon" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="10.0.0.0-14.0.0.0" newVersion="15.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.VisualStudio.QualityTools.Common" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="10.0.0.0-14.0.0.0" newVersion="15.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Collections.Immutable" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="1.1.37.0" newVersion="1.2.0.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+  </runtime>
+  <system.diagnostics>
+    <switches>
+      <add name="TpTraceLevel" value="0" />
+    </switches>
+  </system.diagnostics>
+  <appSettings>
+    <!--<add key="ExecutionThreadApartmentState" value ="MTA"/>-->
+    <!--<add key="TraceLogMaxFileSizeInKb" value ="10240"/>-->
+    <!-- MsTest Adapter Specific AppSettings -->
+    <add key="TestProjectRetargetTo35Allowed" value="true" />
+  </appSettings>
+</configuration>'
+TpTrace Information: 0 : 12976, 1, 2017/09/21, 07:30:27.079, 14015208162, testhost.exe, DefaultEngineInvoker: Monitoring parent process with id: '12492'
+TpTrace Information: 0 : 12976, 1, 2017/09/21, 07:30:27.081, 14015215663, testhost.exe, DefaultEngineInvoker: Initialize communication on port number: '51484'
+TpTrace Information: 0 : 12976, 1, 2017/09/21, 07:30:27.083, 14015221104, testhost.exe, Trying to connect to server on port : 51484
+TpTrace Information: 0 : 12976, 1, 2017/09/21, 07:30:27.088, 14015240308, testhost.exe, DefaultEngineInvoker: Start Request Processing.
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.088, 14015240776, testhost.exe, Connected to the server successfully 
+TpTrace Information: 0 : 12976, 7, 2017/09/21, 07:30:27.273, 14015965921, testhost.exe, Discovery Session Initialize.
+TpTrace Information: 0 : 12976, 7, 2017/09/21, 07:30:27.288, 14016024836, testhost.exe, Execution started.
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.289, 14016028188, testhost.exe, TestExecutorService: Loading the extensions
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.293, 14016043183, testhost.exe, TestPluginCache: Discovering the extensions using extension path.
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.297, 14016059302, testhost.exe, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Extensions.GenericTestAdapter: Resolving assembly.
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.302, 14016076272, testhost.exe, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Extensions.GenericTestAdapter: Resolved assembly. 
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.305, 14016089671, testhost.exe, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Extensions.OrderedTestAdapter: Resolving assembly.
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.306, 14016093537, testhost.exe, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Extensions.OrderedTestAdapter: Resolved assembly. 
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.307, 14016095485, testhost.exe, AssemblyResolver: Microsoft.TestPlatform.TestHostRuntimeProvider: Resolving assembly.
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.307, 14016099046, testhost.exe, AssemblyResolver: Microsoft.TestPlatform.TestHostRuntimeProvider: Resolved assembly. 
+TpTrace Error: 0 : 12976, 6, 2017/09/21, 07:30:27.308, 14016101178, testhost.exe, TryGetTestExtensionFromType: Discovered multiple test extensions with identifier data 'Microsoft.VisualStudio.TestPlatform.Extensions.GenericTestAdapter.GenericTestDiscoverer, Microsoft.VisualStudio.TestPlatform.Extensions.GenericTestAdapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'; keeping the first one.
+TpTrace Error: 0 : 12976, 6, 2017/09/21, 07:30:27.308, 14016101467, testhost.exe, TryGetTestExtensionFromType: Discovered multiple test extensions with identifier data 'Microsoft.VisualStudio.TestPlatform.Extensions.OrderedTestAdapter.OrderedTestDiscoverer, Microsoft.VisualStudio.TestPlatform.Extensions.OrderedTestAdapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'; keeping the first one.
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.308, 14016102843, testhost.exe, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Extensions.TmiAdapter: Resolving assembly.
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.309, 14016106352, testhost.exe, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Extensions.TmiAdapter: Resolved assembly. 
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.332, 14016194903, testhost.exe, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger: Resolving assembly.
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.333, 14016199180, testhost.exe, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger: Resolved assembly. 
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.334, 14016204229, testhost.exe, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Extensions.VSTestIntegration: Resolving assembly.
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.335, 14016207966, testhost.exe, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Extensions.VSTestIntegration: Resolved assembly. 
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.339, 14016222315, testhost.exe, AssemblyResolver: Microsoft.VisualStudio.TestTools.CppUnitTestFramework.ComInterfaces: Resolving assembly.
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.340, 14016226517, testhost.exe, AssemblyResolver: Microsoft.VisualStudio.TestTools.CppUnitTestFramework.ComInterfaces: Resolved assembly. 
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.341, 14016228996, testhost.exe, AssemblyResolver: Microsoft.VisualStudio.TestTools.CppUnitTestFramework.CppUnitTestExtension: Resolving assembly.
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.342, 14016233404, testhost.exe, AssemblyResolver: Microsoft.VisualStudio.TestTools.CppUnitTestFramework.CppUnitTestExtension: Resolved assembly. 
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.344, 14016240593, testhost.exe, AssemblyResolver: Microsoft.VisualStudio.TraceDataCollector: Resolving assembly.
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.345, 14016244471, testhost.exe, AssemblyResolver: Microsoft.VisualStudio.TraceDataCollector: Resolved assembly. 
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.346, 14016249415, testhost.exe, AssemblyResolver: Microsoft.VisualStudio.ArchitectureTools.PEReader, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: Resolving assembly.
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.347, 14016252646, testhost.exe, CurrentDomain_AssemblyResolve: Resolving assembly 'Microsoft.VisualStudio.ArchitectureTools.PEReader, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.347, 14016254531, testhost.exe, AssemblyResolver: Microsoft.VisualStudio.ArchitectureTools.PEReader, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: Resolving assembly.
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.347, 14016254937, testhost.exe, CurrentDomain_AssemblyResolve: Resolving assembly 'Microsoft.VisualStudio.ArchitectureTools.PEReader, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.347, 14016255063, testhost.exe, CurrentDomainAssemblyResolve: Failed to resolve assembly 'Microsoft.VisualStudio.ArchitectureTools.PEReader, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.348, 14016255668, testhost.exe, CurrentDomainAssemblyResolve: Failed to resolve assembly 'Microsoft.VisualStudio.ArchitectureTools.PEReader, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.349, 14016261353, testhost.exe, AssemblyResolver: Microsoft.IntelliTrace.Core, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: Resolving assembly.
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.349, 14016261786, testhost.exe, CurrentDomain_AssemblyResolve: Resolving assembly 'Microsoft.IntelliTrace.Core, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.350, 14016263430, testhost.exe, AssemblyResolver: Microsoft.IntelliTrace.Core, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: Resolving assembly.
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.350, 14016263788, testhost.exe, CurrentDomain_AssemblyResolve: Resolving assembly 'Microsoft.IntelliTrace.Core, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.350, 14016263890, testhost.exe, CurrentDomainAssemblyResolve: Failed to resolve assembly 'Microsoft.IntelliTrace.Core, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.350, 14016264290, testhost.exe, CurrentDomainAssemblyResolve: Failed to resolve assembly 'Microsoft.IntelliTrace.Core, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+TpTrace Warning: 0 : 12976, 6, 2017/09/21, 07:30:27.352, 14016274684, testhost.exe, TestPluginDiscoverer: Failed to get types from assembly 'Microsoft.VisualStudio.TraceDataCollector, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.  Skipping test extension scan for this assembly.  Error: System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.TestPluginDiscoverer.GetTestExtensionsFromAssembly[TPluginInfo,TExtension](Assembly assembly, Dictionary`2 pluginInfos)
+TpTrace Warning: 0 : 12976, 6, 2017/09/21, 07:30:27.353, 14016275417, testhost.exe, LoaderExceptions: System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.VisualStudio.ArchitectureTools.PEReader, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies. The system cannot find the file specified.
+File name: 'Microsoft.VisualStudio.ArchitectureTools.PEReader, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' ---> System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.VisualStudio.ArchitectureTools.PEReader, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies. The system cannot find the file specified.
+File name: 'Microsoft.VisualStudio.ArchitectureTools.PEReader, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   at Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.TestPluginCache.CurrentDomainAssemblyResolve(Object sender, ResolveEventArgs args)
+   at System.AppDomain.OnAssemblyResolveEvent(RuntimeAssembly assembly, String assemblyFullName)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+
+
+TpTrace Warning: 0 : 12976, 6, 2017/09/21, 07:30:27.353, 14016275702, testhost.exe, LoaderExceptions: System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.IntelliTrace.Core, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies. The system cannot find the file specified.
+File name: 'Microsoft.IntelliTrace.Core, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' ---> System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.IntelliTrace.Core, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies. The system cannot find the file specified.
+File name: 'Microsoft.IntelliTrace.Core, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   at Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.TestPluginCache.CurrentDomainAssemblyResolve(Object sender, ResolveEventArgs args)
+   at System.AppDomain.OnAssemblyResolveEvent(RuntimeAssembly assembly, String assemblyFullName)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+
+
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.357, 14016290771, testhost.exe, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.357, 14016294413, testhost.exe, TestPluginCache: Discoverers are 'Microsoft.VisualStudio.TestPlatform.Extensions.GenericTestAdapter.GenericTestDiscoverer, Microsoft.VisualStudio.TestPlatform.Extensions.GenericTestAdapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a,Microsoft.VisualStudio.TestPlatform.Extensions.OrderedTestAdapter.OrderedTestDiscoverer, Microsoft.VisualStudio.TestPlatform.Extensions.OrderedTestAdapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a,Microsoft.VisualStudio.TestPlatform.Extensions.VSTestIntegration.MSTestDiscoverer, Microsoft.VisualStudio.TestPlatform.Extensions.VSTestIntegration, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a,Microsoft.VisualStudio.TestTools.CppUnitTestFramework.CppUnitTestExtension.TestDiscoverer, Microsoft.VisualStudio.TestTools.CppUnitTestFramework.CppUnitTestExtension, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.358, 14016294562, testhost.exe, TestPluginCache: Executors are ''.
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.358, 14016294642, testhost.exe, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.358, 14016294698, testhost.exe, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.362, 14016310501, testhost.exe, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Extensions.GenericTestAdapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: Resolving assembly.
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.362, 14016311596, testhost.exe, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Extensions.GenericTestAdapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: Resolved assembly. 
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.362, 14016313785, testhost.exe, TestPluginManager.CreateTestExtension: Attempting to load test extension: Microsoft.VisualStudio.TestPlatform.Extensions.GenericTestAdapter.GenericTestDiscoverer
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.363, 14016314191, testhost.exe, TestDiscoveryManager: LoadExtensions: Created discoverer Microsoft.VisualStudio.TestPlatform.Extensions.GenericTestAdapter.GenericTestDiscoverer
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.363, 14016316356, testhost.exe, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Extensions.OrderedTestAdapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: Resolving assembly.
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.363, 14016317211, testhost.exe, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Extensions.OrderedTestAdapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: Resolved assembly. 
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.363, 14016317388, testhost.exe, TestPluginManager.CreateTestExtension: Attempting to load test extension: Microsoft.VisualStudio.TestPlatform.Extensions.OrderedTestAdapter.OrderedTestDiscoverer
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.363, 14016317709, testhost.exe, TestDiscoveryManager: LoadExtensions: Created discoverer Microsoft.VisualStudio.TestPlatform.Extensions.OrderedTestAdapter.OrderedTestDiscoverer
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.364, 14016319863, testhost.exe, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Extensions.VSTestIntegration, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: Resolving assembly.
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.364, 14016320796, testhost.exe, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Extensions.VSTestIntegration, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: Resolved assembly. 
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.364, 14016320981, testhost.exe, TestPluginManager.CreateTestExtension: Attempting to load test extension: Microsoft.VisualStudio.TestPlatform.Extensions.VSTestIntegration.MSTestDiscoverer
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.364, 14016321487, testhost.exe, TestDiscoveryManager: LoadExtensions: Created discoverer Microsoft.VisualStudio.TestPlatform.Extensions.VSTestIntegration.MSTestDiscoverer
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.365, 14016323492, testhost.exe, AssemblyResolver: Microsoft.VisualStudio.TestTools.CppUnitTestFramework.CppUnitTestExtension, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: Resolving assembly.
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.365, 14016324351, testhost.exe, AssemblyResolver: Microsoft.VisualStudio.TestTools.CppUnitTestFramework.CppUnitTestExtension, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: Resolved assembly. 
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.365, 14016324529, testhost.exe, TestPluginManager.CreateTestExtension: Attempting to load test extension: Microsoft.VisualStudio.TestTools.CppUnitTestFramework.CppUnitTestExtension.TestDiscoverer
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.365, 14016324858, testhost.exe, TestDiscoveryManager: LoadExtensions: Created discoverer Microsoft.VisualStudio.TestTools.CppUnitTestFramework.CppUnitTestExtension.TestDiscoverer
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.365, 14016324988, testhost.exe, TestExecutorService: Loaded the discoverers
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.367, 14016330181, testhost.exe, TestPluginCache: Discovering the extensions using extension path.
+TpTrace Error: 0 : 12976, 6, 2017/09/21, 07:30:27.368, 14016334270, testhost.exe, TryGetTestExtensionFromType: Discovered multiple test extensions with identifier data 'executor://GenericTestAdapter/v1'; keeping the first one.
+TpTrace Error: 0 : 12976, 6, 2017/09/21, 07:30:27.368, 14016334511, testhost.exe, TryGetTestExtensionFromType: Discovered multiple test extensions with identifier data 'executor://OrderedTestAdapter/v1'; keeping the first one.
+TpTrace Warning: 0 : 12976, 6, 2017/09/21, 07:30:27.368, 14016335881, testhost.exe, TestPluginDiscoverer: Failed to get types from assembly 'Microsoft.VisualStudio.TraceDataCollector, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.  Skipping test extension scan for this assembly.  Error: System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.TestPluginDiscoverer.GetTestExtensionsFromAssembly[TPluginInfo,TExtension](Assembly assembly, Dictionary`2 pluginInfos)
+TpTrace Warning: 0 : 12976, 6, 2017/09/21, 07:30:27.368, 14016336184, testhost.exe, LoaderExceptions: System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.VisualStudio.ArchitectureTools.PEReader, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies. The system cannot find the file specified.
+File name: 'Microsoft.VisualStudio.ArchitectureTools.PEReader, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   at Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.TestPluginCache.CurrentDomainAssemblyResolve(Object sender, ResolveEventArgs args)
+   at System.AppDomain.OnAssemblyResolveEvent(RuntimeAssembly assembly, String assemblyFullName)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+TpTrace Warning: 0 : 12976, 6, 2017/09/21, 07:30:27.368, 14016336439, testhost.exe, LoaderExceptions: System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.IntelliTrace.Core, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies. The system cannot find the file specified.
+File name: 'Microsoft.IntelliTrace.Core, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   at Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.TestPluginCache.CurrentDomainAssemblyResolve(Object sender, ResolveEventArgs args)
+   at System.AppDomain.OnAssemblyResolveEvent(RuntimeAssembly assembly, String assemblyFullName)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.368, 14016336760, testhost.exe, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.368, 14016336873, testhost.exe, TestPluginCache: Discoverers are 'Microsoft.VisualStudio.TestPlatform.Extensions.GenericTestAdapter.GenericTestDiscoverer, Microsoft.VisualStudio.TestPlatform.Extensions.GenericTestAdapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a,Microsoft.VisualStudio.TestPlatform.Extensions.OrderedTestAdapter.OrderedTestDiscoverer, Microsoft.VisualStudio.TestPlatform.Extensions.OrderedTestAdapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a,Microsoft.VisualStudio.TestPlatform.Extensions.VSTestIntegration.MSTestDiscoverer, Microsoft.VisualStudio.TestPlatform.Extensions.VSTestIntegration, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a,Microsoft.VisualStudio.TestTools.CppUnitTestFramework.CppUnitTestExtension.TestDiscoverer, Microsoft.VisualStudio.TestTools.CppUnitTestFramework.CppUnitTestExtension, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.368, 14016336987, testhost.exe, TestPluginCache: Executors are 'executor://GenericTestAdapter/v1,executor://OrderedTestAdapter/v1,executor://MSTestAdapter/v1,executor://CppUnitTestExecutor/v1,executor://UAPCppExecutorIdentifier'.
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.368, 14016337064, testhost.exe, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.368, 14016337119, testhost.exe, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.371, 14016347280, testhost.exe, TestPluginManager.CreateTestExtension: Attempting to load test extension: Microsoft.VisualStudio.TestPlatform.Extensions.GenericTestAdapter.GenericTestExecutor
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.371, 14016347625, testhost.exe, TestExecutorExtensionManager: Loading executor Microsoft.VisualStudio.TestPlatform.Extensions.GenericTestAdapter.GenericTestExecutor
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.371, 14016347852, testhost.exe, TestPluginManager.CreateTestExtension: Attempting to load test extension: Microsoft.VisualStudio.TestPlatform.Extensions.OrderedTestAdapter.OrderedTestExecutor
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.371, 14016348123, testhost.exe, TestExecutorExtensionManager: Loading executor Microsoft.VisualStudio.TestPlatform.Extensions.OrderedTestAdapter.OrderedTestExecutor
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.371, 14016348341, testhost.exe, TestPluginManager.CreateTestExtension: Attempting to load test extension: Microsoft.VisualStudio.TestPlatform.Extensions.VSTestIntegration.MSTestExecutor
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.375, 14016362973, testhost.exe, TestExecutorExtensionManager: Loading executor Microsoft.VisualStudio.TestPlatform.Extensions.VSTestIntegration.MSTestExecutor
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.375, 14016363278, testhost.exe, TestPluginManager.CreateTestExtension: Attempting to load test extension: Microsoft.VisualStudio.TestTools.CppUnitTestFramework.CppUnitTestExtension.TestExecutor
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.375, 14016364692, testhost.exe, TestExecutorExtensionManager: Loading executor Microsoft.VisualStudio.TestTools.CppUnitTestFramework.CppUnitTestExtension.TestExecutor
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.376, 14016364862, testhost.exe, TestPluginManager.CreateTestExtension: Attempting to load test extension: Microsoft.VisualStudio.TestTools.CppUnitTestFramework.CppUnitTestExtension.DummyUWPCppTestExecutor
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.376, 14016365149, testhost.exe, TestExecutorExtensionManager: Loading executor Microsoft.VisualStudio.TestTools.CppUnitTestFramework.CppUnitTestExtension.DummyUWPCppTestExecutor
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.376, 14016365249, testhost.exe, TestExecutorService: Loaded the executors
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.377, 14016369654, testhost.exe, TestPluginCache: Discovering the extensions using extension path.
+TpTrace Warning: 0 : 12976, 6, 2017/09/21, 07:30:27.378, 14016374595, testhost.exe, TestPluginDiscoverer: Failed to get types from assembly 'Microsoft.VisualStudio.TraceDataCollector, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.  Skipping test extension scan for this assembly.  Error: System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.TestPluginDiscoverer.GetTestExtensionsFromAssembly[TPluginInfo,TExtension](Assembly assembly, Dictionary`2 pluginInfos)
+TpTrace Warning: 0 : 12976, 6, 2017/09/21, 07:30:27.378, 14016374865, testhost.exe, LoaderExceptions: System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.VisualStudio.ArchitectureTools.PEReader, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies. The system cannot find the file specified.
+File name: 'Microsoft.VisualStudio.ArchitectureTools.PEReader, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   at Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.TestPluginCache.CurrentDomainAssemblyResolve(Object sender, ResolveEventArgs args)
+   at System.AppDomain.OnAssemblyResolveEvent(RuntimeAssembly assembly, String assemblyFullName)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+TpTrace Warning: 0 : 12976, 6, 2017/09/21, 07:30:27.378, 14016375228, testhost.exe, LoaderExceptions: System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.IntelliTrace.Core, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies. The system cannot find the file specified.
+File name: 'Microsoft.IntelliTrace.Core, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   at Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.TestPluginCache.CurrentDomainAssemblyResolve(Object sender, ResolveEventArgs args)
+   at System.AppDomain.OnAssemblyResolveEvent(RuntimeAssembly assembly, String assemblyFullName)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.378, 14016375536, testhost.exe, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.378, 14016375642, testhost.exe, TestPluginCache: Discoverers are 'Microsoft.VisualStudio.TestPlatform.Extensions.GenericTestAdapter.GenericTestDiscoverer, Microsoft.VisualStudio.TestPlatform.Extensions.GenericTestAdapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a,Microsoft.VisualStudio.TestPlatform.Extensions.OrderedTestAdapter.OrderedTestDiscoverer, Microsoft.VisualStudio.TestPlatform.Extensions.OrderedTestAdapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a,Microsoft.VisualStudio.TestPlatform.Extensions.VSTestIntegration.MSTestDiscoverer, Microsoft.VisualStudio.TestPlatform.Extensions.VSTestIntegration, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a,Microsoft.VisualStudio.TestTools.CppUnitTestFramework.CppUnitTestExtension.TestDiscoverer, Microsoft.VisualStudio.TestTools.CppUnitTestFramework.CppUnitTestExtension, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.378, 14016375744, testhost.exe, TestPluginCache: Executors are 'executor://GenericTestAdapter/v1,executor://OrderedTestAdapter/v1,executor://MSTestAdapter/v1,executor://CppUnitTestExecutor/v1,executor://UAPCppExecutorIdentifier'.
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.378, 14016375843, testhost.exe, TestPluginCache: Setting providers are 'MSTest'.
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.378, 14016375912, testhost.exe, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.380, 14016380455, testhost.exe, TestPluginManager.CreateTestExtension: Attempting to load test extension: Microsoft.VisualStudio.TestPlatform.Extensions.VSTestIntegration.MSTestSettingsProvider
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.380, 14016380993, testhost.exe, SettingsProviderExtensionManager: Loading settings provider Microsoft.VisualStudio.TestPlatform.Extensions.VSTestIntegration.MSTestSettingsProvider
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.380, 14016381137, testhost.exe, TestExecutorService: Loaded the settings providers
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.380, 14016381205, testhost.exe, TestExecutorService: Loaded the extensions
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.389, 14016416792, testhost.exe, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Common.resources, Version=15.0.0.0, Culture=en-GB, PublicKeyToken=b03f5f7f11d50a3a: Resolving assembly.
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.389, 14016417414, testhost.exe, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Common.resources, Version=15.0.0.0, Culture=en-GB, PublicKeyToken=b03f5f7f11d50a3a: Resolving assembly.
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.389, 14016419374, testhost.exe, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Common.resources, Version=15.0.0.0, Culture=en, PublicKeyToken=b03f5f7f11d50a3a: Resolving assembly.
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.390, 14016419924, testhost.exe, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Common.resources, Version=15.0.0.0, Culture=en, PublicKeyToken=b03f5f7f11d50a3a: Resolving assembly.
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.400, 14016459741, testhost.exe, TestDiscoveryManager: Discovering tests from sources D:\PullRequests\mstest-exit-code\UnitTestProject\bin\Debug\UnitTestProject.dll
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.403, 14016473467, testhost.exe, BaseRunTests.RunTestInternalWithExecutors: Running tests for executor://MSTestAdapter/v1
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.407, 14016489094, testhost.exe, MixedModeExecutor: Started doing deployment for source D:\PullRequests\mstest-exit-code\UnitTestProject\bin\Debug\UnitTestProject.dll.
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.416, 14016521877, testhost.exe, Removing source D:\PullRequests\mstest-exit-code\UnitTestProject\bin\Debug\UnitTestProject.dll from the source list as it does not contain any test.
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.416, 14016522133, testhost.exe, MixedModeExecutor: Deployment done for all the sources D:\PullRequests\mstest-exit-code\UnitTestProject\bin\Debug\UnitTestProject.dll.
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.416, 14016523066, testhost.exe, TestExecutionManager.RunTestInternalWithExecutors: Completed running tests for executor://MSTestAdapter/v1
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.416, 14016523229, testhost.exe, BaseRunTests.RunTestInternalWithExecutors: Running tests for executor://CppUnitTestExecutor/v1
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.426, 14016561361, testhost.exe, TestExecutionManager.RunTestInternalWithExecutors: Completed running tests for executor://CppUnitTestExecutor/v1
+TpTrace Warning: 0 : 12976, 6, 2017/09/21, 07:30:27.427, 14016566507, testhost.exe, No test is available in D:\PullRequests\mstest-exit-code\UnitTestProject\bin\Debug\UnitTestProject.dll. Make sure that test discoverer & executors are registered and platform & framework version settings are appropriate and try again.
+TpTrace Information: 0 : 12976, 6, 2017/09/21, 07:30:27.430, 14016578234, testhost.exe, Sending test run complete
+TpTrace Verbose: 0 : 12976, 6, 2017/09/21, 07:30:27.448, 14016648613, testhost.exe, BaseRunTests.RunTests: Run is complete.
+TpTrace Information: 0 : 12976, 7, 2017/09/21, 07:30:27.466, 14016717534, testhost.exe, Session End message received from server. Closing the connection.
+TpTrace Information: 0 : 12976, 7, 2017/09/21, 07:30:27.466, 14016718874, testhost.exe, Closing the connection !
