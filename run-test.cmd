@@ -6,7 +6,7 @@ msbuild mstest-exit-code.sln /p:Configuration=Debug
 
 set vstest="%VSINSTALLDIR%\Common7\IDE\Extensions\TestPlatform\vstest.console.exe"
 
-%vstest% UnitTestProject\bin\Debug\UnitTestProject.dll /framework:.NETFramework,Version=v4.6 /platform:x64 /Diag:diag.txt
+%vstest% UnitTestProject\bin\Debug\UnitTestProject.dll /TestAdapterPath:UnitTestProject\bin\Debug
 
 echo %vstest%
 echo "ERRORLEVEL=%ERRORLEVEL%"
